@@ -6,14 +6,14 @@ class LevelScene2 extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('backgroundlvl2', '../assets/images/bg-2.png');
-        this.load.image('land', '../assets/images/ground.png');
-        this.load.image('coin', '../assets/images/coin.png');
+        this.load.image('backgroundlvl2', 'assets/images/bg-2.png');
+        this.load.image('land', 'assets/images/ground.png');
+        this.load.image('coin', 'assets/images/coin.png');
         this.load.spritesheet('player', 'assets/images/player.png', {
             frameWidth: 136,
             frameHeight: 140
         });
-        this.load.spritesheet('enemy', '../assets/images/enemy.png', {
+        this.load.spritesheet('enemy', 'assets/images/enemy.png', {
             frameWidth: 79,
             frameHeight: 110
         });

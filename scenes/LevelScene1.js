@@ -6,19 +6,19 @@ class LevelScene1 extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('background', '../assets/images/bg-1.png');
-        this.load.image('land', '../assets/images/ground.png');
-        this.load.image('coin', '../assets/images/coin.png');
+        this.load.image('background', 'assets/images/bg-1.png');
+        this.load.image('land', 'assets/images/ground.png');
+        this.load.image('coin', 'assets/images/coin.png');
         this.load.spritesheet('player', 'assets/images/player.png', {
             frameWidth: 136,
             frameHeight: 140
         });
-        this.load.spritesheet('enemy', '../assets/images/enemy.png', {
+        this.load.spritesheet('enemy', 'assets/images/enemy.png', {
             frameWidth: 79,
             frameHeight: 110
         });
-        this.load.audio('soundJump', '../assets/audio/jump.wav');
-        this.load.audio('soundCoins', '../assets/audio/coins.wav');
+        this.load.audio('soundJump', 'assets/audio/jump.wav');
+        this.load.audio('soundCoins', 'assets/audio/coins.wav');
     }
 
     create() {
